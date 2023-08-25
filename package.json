@@ -4,8 +4,8 @@
   "description": "This project demonstrates deploying to the FVM Calibration Testnet",
   "main": "index.js",
   "scripts": {
-    "lint:check:format": "prettier --check **.{sol,js,ts}",
-    "lint:fix:format": "prettier --write **.{sol,js,ts}",
+    "lint:check:format": "prettier --check **.{sol,js,ts} */**.{sol,js,ts}",
+    "lint:fix:format": "prettier --write **.{sol,js,ts} */**.{sol,js,ts}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kr1p70n1c",
