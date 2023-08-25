@@ -19,6 +19,11 @@ npx hardhat test
 npx hardhat run --network calibrationnet scripts/deploy.ts
 ```
 
+This execution breaks with the error:
+
+`ProviderError: wrong param count (method 'eth_estimateGas'): 2 != 1`
+
+
 ## Deploy - works
 
 This uses the `hardhat-deploy` plugin.
@@ -26,6 +31,8 @@ This uses the `hardhat-deploy` plugin.
 ```shell
 npx hardhat deploy  --network calibrationnet
 ```
+
+This deploys successfully.
 
 # Prettier
 
